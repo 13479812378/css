@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box, .inner, .middle, .top, .bottom button {border: 1px solid #777; font-size: small;}
+        .box {
+            margin: 0 auto; 
+            width: 800px;
+            height: 120px;
+            overflow: hidden;
+        }
+        .inner {
+            float: right;
+            width: 50%;
+            height: 100%;
+            box-sizing: border-box;
+            /* overflow: hidden; */
+        }
+        .top {
+            width: 100%;
+            height: 80px;
+            /* background-color: aqua; */
+        }
+        .middle {
+            float: left;
+            width: 100%;
+            height: 20px;
+            /* padding: 0px; */
+            box-sizing: border-box;
+            /* background-color: aquamarine; */
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+        .bottom button{
+            width:50%;
+            height: 20px;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <h3>과제2</h3>
+    <div class="box">
+        사진
+        <div class="inner">
+            <div class="top">
+                제목: 패딩바텀 50px<br>
+                내용: gg
+            </div>
+            <div class="middle">
+                <div class="left">
+                    가격
+                </div>
+                <div class="right">
+                    10000원
+                </div>
+            </div>
+            <div class="bottom">
+                <button type="button" class="left">
+                    <a href="#">장바구니</a>
+                </button>
+                <button type="button" class="right">
+                    <a href="#">구매하기</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
