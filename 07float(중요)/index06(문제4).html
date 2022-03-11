@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {font-size: 10px;}
+        .inner, .mid, .up {border: 1px solid #777;}
+        .outer {
+            margin: 0 auto;
+            width: 1020px;
+            overflow: hidden;
+        }
+        .outer p {
+            font-size: small;
+        }
+        .left {
+            float: left;
+            width: 488px;
+            height: 310px;
+            box-sizing: border-box;
+        }
+        .inner {
+            width: 33.3333%;
+            height: 155px;
+            float: left;
+            box-sizing: border-box;
+        }
+        .mid {
+            margin-left: 8px;
+            float: left;
+            width: 236px;
+            height: 310px;
+            box-sizing: border-box;
+        }
+        .right {
+            margin-left: 8px;
+            float: right;
+            width: 280px;
+            height: 310px;
+            box-sizing: border-box;
+        }
+        .up {
+            height: 50%;
+            box-sizing: border-box;
+        }
+        .right-inner button {
+            background-color: aqua;
+            border: 0px;
+            width: 260px;
+            height: 40px;
+        }
+        .p1 {
+            float: left;
+            font-size: small;
+        }
+        .p2 {float: right;}
+
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <p>최신앨범(1020px)</p>
+        <div class="left">
+            <div class="inner">
+                사진(너비 33.3333%, 높이 155px)
+            </div>
+            <div class="inner">
+                사진
+            </div>
+            <div class="inner">
+                사진
+            </div>
+            <div class="inner">
+                사진
+            </div>
+            <div class="inner">
+                사진
+            </div>
+            <div class="inner">
+                사진
+            </div>
+        </div>
+        <div class="mid">
+            이미지영역:236px, 높이 310px, 왼쪽 마진 8px
+        </div>
+        <div class="right">
+            <div class="up">
+                너비:280px, 왼쪽 마진 8px<br>
+                <div class="right-inner">
+                    <p class="p1">멜론을 더 안전하게 이용하세요</p>
+                    <p class="p2">회원가입</p>
+                    <button>로그인</button>
+                </div>
+                
+            </div>
+            <div class="up">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
